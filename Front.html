@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	crossorigin="anonymous"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+	crossorigin="anonymous"></script>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+<link rel="stylesheet" type="text/css" href="../css/front.css">
+
+<title>Inicio</title>
+
+<link rel="shortcut icon" class="fas fa-signature">
+
+</head>
+<body>
+	<!--  link do chart.js -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	<!-- link do js dos icons -->
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+
+	<!-- menu horizontal -->
+	<div class="pos-f-t">
+		<nav class="navbar-dark bg-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarToggleExternalContent"
+				aria-controls="navbarToggleExternalContent" aria-expanded="false"
+				aria-label="Toggle navigation" id="sidebarCollapse"
+				class="btn btn-info" style="position: static;">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<i class="fas fa-signature fa-2x" style="margin-left: 20px;"></i>
+			<div class="navbar-text">
+				<div class="container">
+					<div class="row justify-content-around">
+						<div class="col-md-9" id="user">renee mckelvey</div>
+						<div class="w-100"></div>
+						<div class="col-md-10" id="conf">account configurations</div>
+						<div class="col-md-" id="icon">
+							<i class="fas fa-user-circle fa-3x"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- fim menu horizontal -->
+
+	<!-- menu vertical -->
+	<div class="wrapper">
+		<nav id="sidebar">
+			<div class="sidebar-header"></div>
+			<ul class="list-unstyled components">
+				<li><a href="#"><i class="fas fa-search fa-2x"></i></a></li>
+				<li><a href="#"><i class="fas fa-home fa-2x"></i></a></li>
+				<li><a href="#"><i class="fas fa-file-alt fa-2x"></i></a></li>
+				<li><a href="#"><i class="fas fa-file-excel fa-2x"></i></a></li>
+				<li><a href="#"><i class="fas fa-download fa-2x"></i></a></li>
+				<li><a href="#"><i class="fas fa-file-image fa-2x"></i></a></li>
+				<li><a href="#"><i class="far fa-calendar fa-2x"></i></a></li>
+				<li><a href="#"><i class="fas fa-users fa-2x"></i></a></li>
+				<li><a href="#"><i class="fas fa-tools fa-2x"></i></a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="content">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+	</div>
+	<!-- fim menu vertical -->
+
+	<!-- container -->
+	<div id="container">
+
+		<!-- primeira grid -->
+		<div class="row justify-content-around">
+			<div class="col-3" id="grid-de-tres">
+				<div class="container">
+					<div class="row">
+						<div class="col" id="titulo-grid-de-tres">total sales</div>
+						<div class="col-3">
+							<i class="fas fa-store fa-2x"></i>
+						</div>
+						<div class="w-100"></div>
+						<div class="col" id="sub-titulo-grid">21 324</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-3" id="grid-de-tres">
+				<div class="container">
+					<div class="row">
+						<div class="col" id="titulo-grid-de-tres">total income</div>
+						<div class="col-3">
+							<i class="fas fa-tag fa-2x"></i>
+						</div>
+						<div class="w-100"></div>
+						<div class="col" id="sub-titulo-grid">$211 324</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-3" id="grid-de-tres">
+				<div class="container">
+					<div class="row">
+						<div class="col" id="titulo-grid-de-tres">total views</div>
+						<div class="col-3">
+							<i class="fas fa-desktop fa-2x"></i>
+						</div>
+						<div class="w-100"></div>
+						<div class="col" id="sub-titulo-grid">65 2234</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- fim primeira grid -->
+
+		<br />
+
+		<!-- segunda grid -->
+		<div class="row justify-content-around">
+			<div class="col-7" id="grid-de-dois">
+				<div class="container">
+					<div class="row">
+						<div class="col-10" id="titulo-grid-de-dois">sales
+							performance</div>
+						<div class="col-md-1" id="botao">
+							<button>
+								<i class="fas fa-tools fa-2x" id="config"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<hr>
+
+				<div class="container" id="grafico-linha">
+
+					<!-- gráfico de área -->
+					<canvas id="linha"> </canvas>
+					<script type="text/javascript">
+
+					//gráfico de linha 
+					var area = document.getElementById("linha");
+					Chart.defaults.global.defaultPosition = 'top';
+					Chart.defaults.global.defaultFontSize = 13;
+					Chart.defaults.global.tooltips.enabled = true;
+					Chart.defaults.global.defaultFontFamily = "sans-serif";
+					Chart.defaults.global.defaultAlign = 'center';
+					var dados = new Chart(area, {
+					    type: 'line',
+					    data: {
+					        labels: ["Jan", "Fev", "Mar", "Abr"],
+					        datasets: [{
+					            label: "Laptops",
+					            data: [50, 330, 400, 30],
+					            borderWidth: 6,
+					            borderColor: "#43A763",
+					            backgroundColor: "#43A763",
+					            lineTension: 0,
+					            pointRadius: 0,
+					        },
+					        {
+					            label: "Headsets",
+					            data: [150, 500, 130, 500],
+					            borderWidth: 6,
+					            borderColor: "#ccc",
+					            backgroundColor: "#ccc",
+					            lineTension: 0,
+					            pointRadius: 0,
+					        }
+					            , {
+					            label: "Monitors",
+					            data: [200, 600, 300, 500],
+					            borderWidth: 6,
+					            borderColor: "pink",
+					            backgroundColor: "pink",
+					            lineTension: 0,
+					            pointRadius: 0,
+							},
+					        {
+					            label: "Phones",
+					            data: [300, 700, 400, 1000],
+					            borderWidth: 6,
+					            borderColor: "yellow",
+					            backgroundColor: "yellow",
+					            lineTension: 0,
+					            pointRadius: 0
+					        },
+					        ]
+					    },
+					    options: {
+					    	legend: {
+					    	    labels: {
+					    	        boxWidth: 15
+					    	        }
+					    	  },                
+					        scales: {
+					            yAxes: [{
+					                stacked: true,
+					                display: false,
+					                gridLines: {
+					                    display: false,
+					                    color: "black"
+					                },
+					            }],
+					            xAxes: [{
+					                display: false,
+					                gridLines: {
+					                    display: false,
+					                    color: "black",
+					                }, 
+					            }]
+					        },
+					    }
+					});
+					//removendo dados online
+					function removeData(chart) {
+					    chart.data.labels.pop();
+					    chart.data.datasets.forEach((dataset) => {
+					        dataset.data.pop();
+					    });
+					    chart.update();
+					}
+</script>
+				</div>
+			</div>
+			<div class="col-3" id="grid-de-dois">
+				<div id="titulo-grid-de-dois">top categories</div>
+				<hr>
+				<div class="container" id="grafico-rosca">
+
+					<!--  gráfico de rosquinha -->
+					<canvas id="rosca" height="400px" width="300px"></canvas>
+					<script>
+					var rosquinha = document.getElementById("rosca");
+var dados = {
+    labels: [
+        "Eletronics",
+        "Furniture",
+        "Toys",   
+    ],
+    datasets: [
+        {
+            data: [6, 10, 4],
+            backgroundColor: [
+                "#43A763",
+                "#ccc",
+                "pink"
+            ],
+            borderColor: "#fafafa",
+            borderWidth: 10
+        }]
+};
+var opcao = {
+  rotation:2.84,
+  cutoutPercentage: 30,
+  circumference: 2*Math.PI,
+  legend: {
+	display: true,
+	labels: {
+        boxWidth: 30,
+        
+        }
+  },
+  animation: {
+    animateRotate: true,
+    animateScale: true
+  }
+};
+
+var pieChart = new Chart(rosca, {
+  type: 'doughnut',
+  data: dados, 	
+  options: opcao
+});
+//removendo dados online
+			function removeData(chart) {
+			    chart.data.labels.pop();
+			    chart.data.datasets.forEach((dataset) => {
+			        dataset.data.pop();
+			    });
+			    chart.update();
+			}
+		</script>
+				</div>
+			</div>
+		</div>
+		<!-- fim segunda grid -->
+
+		<br />
+
+		<!-- terceira grid -->
+		<div class="row justify-content-around">
+			<div class="container">
+				<div class="row">
+					<div class="col-11" id="titulo-tabela">recente customers</div>
+					<div class="col-md-1"  id="botao">
+							<button>
+								<i class="fas fa-tools fa-2x" id="config"></i>
+							</button>
+						</div>
+				</div>
+			</div>
+			<div class="col-11">
+				<div class="table-responsive">
+					<table class="table table-striped">
+						<tbody>
+							<tr id="corsim">
+								<th scope="row" id="nome-tabela">jerry mattedi</th>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo-p">13 aug 2018</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo-g">joined</div>
+									</div>
+								</td>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo">251-661-5362</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo">phone number</div>
+									</div>
+								</td>
+								<td>
+									<div class="row" id="conteudo-left">
+										<div class="col-6">new york</div>
+										<div class="w-100"></div>
+										<div class="col-6">location</div>
+									</div>
+								</td>
+								<td><div class="col-"><button id="option">options</button></div></td>
+								<td><div class="col-"><button id="details">details</button></div></td>
+							</tr>
+							<tr id="cornao">
+								<th scope="row" id="nome-tabela">elianora vasilov</th>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo-p">13 aug 2018</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo-g">joined</div>
+									</div>
+								</td>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo">351-661-3151</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo">phone number</div>
+									</div>
+								</td>
+								<td>
+									<div class="row" id="conteudo-left">
+										<div class="col-6">ontario</div>
+										<div class="w-100"></div>
+										<div class="col-6">location</div>
+									</div>
+								</td>
+								<td><div class="col-"><button id="option">options</button></div></td>
+								<td><div class="col-"><button id="details">details</button></div></td>
+							</tr>
+							<tr id="corsim">
+								<th scope="row" id="nome-tabela">marcos anguiano</th>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo-p">13 aug 2018</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo-g">joined</div>
+									</div>
+								</td>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo">251-661-5362</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo">phone number</div>
+									</div>
+								</td>
+								<td>
+									<div class="row" id="conteudo-left">
+										<div class="col-6">milan</div>
+										<div class="w-100"></div>
+										<div class="col-6">location</div>
+									</div>
+								</td>
+								<td><div class="col-"><button id="option">options</button></div></td>
+								<td><div class="col-"><button id="details">details</button></div></td>
+							</tr>
+							<tr id="cornao">
+								<th scope="row" id="nome-tabela">alvis daen</th>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo-p">13 aug 2018</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo-g">joined</div>
+									</div>
+								</td>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo">351-661-5362</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo">phone number</div>
+									</div>
+								</td>
+								<td>
+									<div class="row" id="conteudo-left">
+										<div class="col-6">las vegas</div>
+										<div class="w-100"></div>
+										<div class="col-6">location</div>
+									</div>
+								</td>
+								<td><div class="col-"><button id="option">options</button></div></td>
+								<td><div class="col-"><button id="details">details</button></div></td>
+							</tr>
+							<tr id="corsim">
+								<th scope="row" id="nome-tabela">lissa shipsey</th>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo-p">13 aug 2018</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo-g">joined</div>
+									</div>
+								<td>
+									<div class="row">
+										<div class="col-6" id="conteudo">251-661-5362</div>
+										<div class="w-100"></div>
+										<div class="col-6" id="conteudo">phone number</div>
+									</div>
+								</td>
+								<td>
+									<div class="row" id="conteudo-left">
+										<div class="col-6">san francisco</div>
+										<div class="w-100"></div>
+										<div class="col-6">location</div>
+									</div>	
+								</td>
+								<td><div class="col-"><button id="option">options</button></div></td>
+								<td><div class="col-"><button id="details">details</button></div></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- fim terceira grid -->
+
+	<!-- fim container -->
+
+	<footer>
+		<div class="row" id="pe">
+			<div class="col-md-">
+				<i class="fas fa-copyright"></i>
+			</div>
+			<div class="col-md" id="roda-pe">your company details</div>
+		</div>
+	</footer>
+</body>
+</html>
